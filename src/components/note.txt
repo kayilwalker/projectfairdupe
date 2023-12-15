@@ -1,0 +1,67 @@
+         Node
+    ---------------
+    -not a programming language
+    -it provides a run timeenivironment from javascript to run outside the Browser
+    -with some javascript Libraries.
+    -Browser engine v8 is used for run js in browser.it is same for node.
+
+
+    Features
+ ---------------
+ - extremely fast    
+ - based on Asyncgronous programming
+ - singled threaded
+ - Highly Scalable,large number of request resolving
+ - Open Source
+
+
+    node
+ ----------
+ extension - filename.js
+
+
+  what are node Modules
+ -----------------------   
+ - Modules are files/javascript Libraries in node.js
+ - if we want to include this module in our file we need to import that module
+ - import- require('path') - it is used to import a file 
+ - export - module.exports - it is used to export a file
+
+
+  Types of module
+-------------------
+- Custom  Modules
+- BuildIn Modules
+
+
+Diffrent type of BuildIn Modules
+--------------------------------
+1.File System Modules:
+-----------------------
+ - Allow us to work with the files inside your programs/file/computer
+ -
+ 
+ 
+ import sytax
+ -------
+  Keyword Variable = require('fs')
+
+  common uses
+  1.Read files - fs.readFile() 
+  2.To Create files - fs.Open()
+  3.Update file - fs.writeFile()
+  4.Delete file - fs.unlink()
+  5.Rename file - fd.rename()
+
+
+   MongoDb
+  ----------
+  1.show databases - list out database inside you MongoDb
+  2.use db_name - to change directory
+  3.show collections - to get all collections inside a database
+  4.db.users.find()-to all documents nside users collections
+5.db.users.findone(condtion) - to get a particular document satisying the condtion
+
+
+
+
